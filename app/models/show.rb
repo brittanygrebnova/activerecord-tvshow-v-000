@@ -15,7 +15,7 @@ class Show < ActiveRecord::Base
   
   def self.least_popular_show
     self.order(rating: :asc)
-    binding.pry
+    #binding.pry
   end 
   
   def self.ratings_sum
